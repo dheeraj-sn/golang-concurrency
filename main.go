@@ -1,7 +1,8 @@
 package main
 
-import "github.com/dheeraj-sn/golang-concurrency/eventlistener"
+import "github.com/dheeraj-sn/golang-concurrency/primitives"
 
 func main() {
-	eventlistener.Xmain()
+	//eventlistener.Xmain()
+	primitives.Main()
 }
