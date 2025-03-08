@@ -4,5 +4,6 @@ import "github.com/dheeraj-sn/golang-concurrency/primitives"
 
 func main() {
 	//eventlistener.Xmain()
-	primitives.Main()
+	//primitives.Wgmain()
+	primitives.Mutexmain()
 }

@@ -5,7 +5,7 @@ import (
 	"sync"
 )
 
-func Main() {
+func Wgmain() {
 	hello := func(wg *sync.WaitGroup, id int) {
 		defer wg.Done()
 		fmt.Println("Hello Goroutine with id:%d", id)
