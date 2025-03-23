@@ -1,6 +1,8 @@
 package main
 
-import "github.com/dheeraj-sn/golang-concurrency/primitives"
+import (
+	"github.com/dheeraj-sn/golang-concurrency/patterns"
+)
 
 func main() {
 	//eventlistener.Xmain()
@@ -10,5 +12,8 @@ func main() {
 	// primitives.CMain()
 	// primitives.CondBroadcast()
 	//primitives.PoolTest()
-	primitives.TestBuffered()
+	//primitives.TestBuffered()
+
+	//patterns.DoneChannelForRead()
+	patterns.DoneChannelForWrite()
 }
