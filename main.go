@@ -14,5 +14,6 @@ func main() {
 
 	//patterns.DoneChannelForRead()
 	//patterns.DoneChannelForWrite()
-	generators.CheckRepeatGenerator()
+	//generators.CheckRepeatGenerator()
+	generators.CheckTake()
 }
