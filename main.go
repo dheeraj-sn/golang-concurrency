@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/dheeraj-sn/golang-concurrency/patterns"
-)
+import "github.com/dheeraj-sn/golang-concurrency/generators"
 
 func main() {
 	//eventlistener.Xmain()
@@ -15,5 +13,6 @@ func main() {
 	//primitives.TestBuffered()
 
 	//patterns.DoneChannelForRead()
-	patterns.DoneChannelForWrite()
+	//patterns.DoneChannelForWrite()
+	generators.CheckRepeatGenerator()
 }
